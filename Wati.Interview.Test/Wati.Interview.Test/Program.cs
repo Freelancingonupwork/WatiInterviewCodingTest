@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using Wati.Interview.Test.Context;
 using Wati.Interview.Test.Service;
 using Wati.Interview.Test.Service.Impl;
 
@@ -11,6 +13,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IMathOperationService, MathOperationService>();
+
+builder.Services.AddDbContext<MathOperationDb>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

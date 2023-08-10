@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wati.Interview.Test.Model",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wati.Interview.Test.unitTest", "Wati.Interview.Test.unitTest\Wati.Interview.Test.unitTest.csproj", "{F984B72A-EFB9-4FA4-AA76-17568D0DA837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wati.Interview.Test.Context", "Wati.Interview.Test.Context\Wati.Interview.Test.Context.csproj", "{76B32BFA-6239-4C8D-AE53-D3D04E508992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wati.Interview.Test.Web", "Wati.Interview.Test.Web\Wati.Interview.Test.Web.csproj", "{A50D583E-64E2-4D4F-952F-BEDBB3D242BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{F984B72A-EFB9-4FA4-AA76-17568D0DA837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F984B72A-EFB9-4FA4-AA76-17568D0DA837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F984B72A-EFB9-4FA4-AA76-17568D0DA837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B32BFA-6239-4C8D-AE53-D3D04E508992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B32BFA-6239-4C8D-AE53-D3D04E508992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B32BFA-6239-4C8D-AE53-D3D04E508992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B32BFA-6239-4C8D-AE53-D3D04E508992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50D583E-64E2-4D4F-952F-BEDBB3D242BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50D583E-64E2-4D4F-952F-BEDBB3D242BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50D583E-64E2-4D4F-952F-BEDBB3D242BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50D583E-64E2-4D4F-952F-BEDBB3D242BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
